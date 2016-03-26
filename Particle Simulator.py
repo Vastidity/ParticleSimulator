@@ -250,4 +250,6 @@ def update(particles, timestep):
         inverse = [collisionsToResolve[0][1],collisionsToResolve[0][0]]
         collisionsToResolve.remove(collisionsToResolve[0])
         collisionsToResolve.remove(inverse)
+        
+runSimulation(5,10)
 
